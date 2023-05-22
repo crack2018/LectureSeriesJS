@@ -2,6 +2,12 @@
 // Array Constucter
 // Array method like push,pop,unshift,shift,reverse,includes,indexOf
 // Array Challange
+
+// for loop traditional
+// for in 
+// for of
+// for each
+// array advance method like map.filter,reduce 
 let x;
 
 // Array Literal
@@ -104,4 +110,53 @@ const b = 2;
 const c = 3;
 
 x = Array.of(a, b, c);
-console.log(typeof x,x);
+
+let number=[2,3,4,6,7,1];
+
+// for(let i=0;i<number.length;i++)
+// {
+
+//         console.log(number[i]);
+
+// }
+
+
+// for (const iterator of number) {
+//         console.log(iterator);
+// }
+// console.log('\n');
+
+// for (const key in number) {
+//         console.log(key);
+// }
+// console.log('\n');
+
+// number.forEach(element => {
+//      console.log(element);   
+// });
+
+// number.forEach((element)=>{
+        
+//         console.log(element);
+        
+// });
+
+
+// const number1 = number.map((ele)=>{
+//         return ele;
+// }).filter((ele)=>{
+//         return ele>5
+// }).reduce((acc,ele)=>{
+//         return acc+ele;
+// },0);
+
+const fruitsmix =["banana","apple","orange","mango"];
+const sortedfruits = fruitsmix.sort();
+
+fruitsmix.sort((a,b)=>{
+        return a-b;
+});
+
+//console.log(fruitsmix);
+
+//console.log(sfruit);

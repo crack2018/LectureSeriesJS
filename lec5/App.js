@@ -8,6 +8,7 @@
 // for of
 // for each
 // array advance method like map.filter,reduce 
+// array destructuring
 let x;
 
 // Array Literal
@@ -150,13 +151,52 @@ let number=[2,3,4,6,7,1];
 //         return acc+ele;
 // },0);
 
-const fruitsmix =["banana","apple","orange","mango"];
-const sortedfruits = fruitsmix.sort();
+// const fruitsmix =["banana","apple","orange","mango"];
+// const sortedfruits = fruitsmix.sort();
 
-fruitsmix.sort((a,b)=>{
-        return a-b;
-});
+// fruitsmix.sort((a,b)=>{
+//         return a-b;
+// });
 
 //console.log(fruitsmix);
 
 //console.log(sfruit);
+
+
+const ary1 = ["Cat","Boy","dog","ele","man","pot"];
+
+ let [ar3,ar2,...ar]=ary1;
+
+ console.log(ar3);
+ console.log(ar2);
+ console.log(ar);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

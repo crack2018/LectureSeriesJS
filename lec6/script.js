@@ -21,13 +21,13 @@ let name = "This is Rhaul Raj";
 
 // convert string into araay
 
-let x = name.split(' ');
-x=name.split("is");
+// let x = name.split(' ');
+// x=name.split("is");
 
 
 
-console.log(x);
-console.log(name);
+// console.log(x);
+// console.log(name);
 
 //console.log(newname);
 
@@ -44,6 +44,9 @@ console.log(name);
 // person["eno"] = 22323;
 // person.haskid = true;
 
+
+//delete person.age;
+
 // // if we want to add property like full name we use bracket notation we can't do with dot
 // person["full name"]="rahul raj";
 
@@ -58,15 +61,70 @@ console.log(name);
 // console.log(person["hobbies"])
 // console.log(person);
 
+// console.log(person);
+
+
+let x;
+
+// // Creating an object
+// const person = {
+//   name: 'John Das',
+//   age: 30,
+//   isAdmin: true,
+//   address: {
+//     street: '123 Main st',
+//     city: 'Boston',
+//     state: 'MA',
+//   },
+//   hobbies: ['music', 'sports'],
+// };
 
 
 
+// // Accessing object properties
+// x = person.name; // Dot notation
+// x = person['age']; // Bracket notation
+// x = person.address.state;
+// x = person.hobbies[0];
+
+// // Updating properties
+// person.name = 'Jane Das';
+// person['isAdmin'] = false;
+
+// // Deleting properties
+// delete person.age;
+
+// // Create new properties
+// person.hasChildren = true;
+
+// // Add functions
+// person.greet = function () {
+//   console.log(`Hello, my name is ${this.name}`);
+// };
+
+// person.greet();
+
+// // Keys with multiple words
+
+// const person2 = {
+//   'first name': 'Rahul',
+//   'last name': 'Raj',
+// };
+
+// x = person2['first name'];
+
+// console.log(x);
 
 
 
+const todo = new Object(); 
 
+todo.id=1;
+todo.name="karan";
+todo.fname="raj";
+todo.age=22;
 
-
+console.log(todo);
 
 
 
